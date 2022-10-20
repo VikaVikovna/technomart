@@ -191,3 +191,94 @@ body {
     text-transform: uppercase;
     padding: 10px 12px;
 }
+
+.navigation-card-yellow {
+    background-color: #FFBF47;
+    width: 370px;
+    height: 180px;
+
+}
+
+.navigation-card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navigation-button {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    padding: 12px 19px 10px 33px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navigation-button:before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: "";
+    background: url(../technomart/images/stroke.svg) center center no-repeat;
+    width: 8px;
+    height: 13px;
+}
+
+.navigation-card-blue {
+    background-color: #3BBCE3;
+    width: 370px;
+    height: 180px;
+}
+
+.navigation-card-violet {
+    background-color: #DC91D8;
+    width: 370px;
+    height: 180px;
+}
+
+.navigation-card-green {
+    background-color: #8ED78F;
+    width: 370px;
+    height: 180px;
+}
+
+.navigation-card-orange {
+    background-color: #FFBF47;
+    width: 370px;
+    height: 180px;
+}
+
+.navigation-banner-cards {
+    background-image: url("../technomart/images/own-banner.png");
+    width: 770px;
+    height: 390px;
+}
+
+.navigation-banner {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navigation-banner-description {
+font-family: "PT Sans", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-transform: none;
+}
+
+.navigation-button {
+    background-color: #EE3643;
+    border: none;
+    padding: 13px 24px;
+}
