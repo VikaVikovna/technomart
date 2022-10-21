@@ -330,6 +330,8 @@ text-transform: none;
 .card {
     width: 270px;
     height: 380px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
 }
 
 .card-title {
@@ -338,4 +340,105 @@ text-transform: none;
     line-height: 26px;
     color: #293449;
     text-align: center;
+}
+
+.card-old-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #A9A9A9;
+}
+
+.card-button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-image: url("../technomart/images/red-button.png");
+    width: 140px;
+    height: 40px;
+    padding: 11px 46px 11px 29px;
+}
+
+.card-buy-button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #63A63E;
+    border-radius: 2px;
+    padding: 11px 17px;
+}
+
+.card-favorite-button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #32425C;
+    border: 2px solid #63A63E;
+    border-radius: 2px;
+    padding: 11px 17px;
+}
+
+.button-basket {
+    padding-right: 4px;
+}
+
+.background-service {
+    background-color: #F4F8F9;
+}
+
+.service-title {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #293449;
+}
+
+.service-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #293449;
+}
+
+.advantages-cards {
+    width: 370px;
+    height: 382px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+}
+
+.advantage-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #32425C;
+}
+
+.advantage-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
 }
