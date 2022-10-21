@@ -220,14 +220,8 @@ body {
     color: #FFFFFF;
 }
 
-.navigation-button:before {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    content: "";
-    background: url(../technomart/images/stroke.svg) center center no-repeat;
-    width: 8px;
-    height: 13px;
+.button-stroke {
+    /*padding: 12px 5px 12px 12px;*/
 }
 
 .navigation-card-blue {
@@ -277,10 +271,17 @@ line-height: 24px;
 text-transform: none;
 }
 
-.navigation-button {
+.navigation-button-banner {
     background-color: #EE3643;
     border: none;
     padding: 13px 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .catalog-title {
@@ -441,4 +442,115 @@ text-transform: none;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
+}
+
+.about-company-title {
+font-family: "Fira Sans", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+color: #293449;
+}
+
+.contacts-title {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #293449;
+}
+
+.contacts-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #293449;
+}
+
+.about-company-button {
+    background-color: #EE3643;
+    border: none;
+    padding: 13px 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #F3F7F9;
+}
+
+.feedback {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #F3F7F9;
+}
+
+.subscribe-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #F3F7F9;
+}
+
+.email {
+    width: 223px;
+    height: 40px;
+    border: 1px solid #63A63E;
+    border-radius: 2px;
+    color: #BDBDBD;
+    padding: 10px 16px;
+}
+
+.email-button {
+    width: 40px;
+    height: 40px;
+    background-color: #63A63E;
+    border: none;
+}
+
+.footer-background {
+    background-color: #32425C;
+}
+
+.footer-social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #46556C;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.copyright {
+    background-color: #293449;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.link {
+color: #FFD180;
+    text-decoration: none;
 }
