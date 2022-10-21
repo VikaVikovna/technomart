@@ -103,18 +103,38 @@
         </div>
     </section>
     <section>
-        <h2 class="title">ПЕРФОРАТОРЫ</h2>
+        <h2 class="catalog-title">ПЕРФОРАТОРЫ</h2>
         <div class="filters">
             <div class="filter-cost">
-                <div>ЦЕНА</div>
+                <div class="filter-group">ЦЕНА</div>
             </div>
-            <div class="filter-company">ПРОИЗВОДИТЕЛИ</div>
-            <div class="filter-powered">ПИТАНИЕ</div>
+            <div class="filter-group">ПРОИЗВОДИТЕЛИ</div>
+            <input checked="" class="custom-checkbox" name="infrastructure" type="checkbox" value="pool" id="checkbox-1">
+            <label class="checkbox" for="checkbox-1">BOSCH</label>
+            <input  class="custom-checkbox" name="infrastructure" type="checkbox" value="pool" id="checkbox-1">
+            <label class="checkbox" for="checkbox-1">ИНТЕРСКОЛ</label>
+            <input checked="" class="custom-checkbox" name="infrastructure" type="checkbox" value="pool" id="checkbox-1">
+            <label class="checkbox" for="checkbox-1">MAKIta</label>
+            <input  class="custom-checkbox" name="infrastructure" type="checkbox" value="pool" id="checkbox-1">
+            <label class="checkbox" for="checkbox-1">Dewalt</label>
+            <input  class="custom-checkbox" name="infrastructure" type="checkbox" value="pool" id="checkbox-1">
+            <label class="checkbox" for="checkbox-1">Hitachi</label>
+            <div class="filter-group">ПИТАНИЕ</div>
+            <input class="custom-radio" checked="" id="place-1" name="battery" type="radio" value="power">
+            <label class="checkbox" for="place-1">Аккумуляторные</label>
+            <input class="custom-radio" id="place-2" name="battery" type="radio" value="network">
+            <label class="checkbox" for="place-1">Сетевые</label>
             <a href="#" class="filter-button">Показать</a>
+        </div>
+        <div class="filter-select-wrapper">
+            <label class="visually-hidden" for="sorting">Сортировка.</label>
+            <select class="select-control" id="sorting" name="sorting">
+                <option value="cheap">Сортировать</option>
+            </select>
         </div>
         <div class="catalog-cards">
             <div class="card">
-                <img src="#" alt="Перфоратор BOSCH BFG 3000">
+                <img src="../technomart/images/bosch3000.png" width="216" height="180" alt="Перфоратор BOSCH BFG 3000">
                 <div class="card-title">Перфоратор BOSCH BFG 3000</div>
                 <div class="card-old-price">22500 ₽</div>
                 <a class="card-button card-action-price">15500 ₽</a>
