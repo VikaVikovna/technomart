@@ -84,6 +84,11 @@ body {
     padding: 0 15px;
 }
 
+.online-shop {
+    display: flex;
+    justify-content: space-between;
+}
+
 .online-shop-description-title {
     font-style: italic;
     font-weight: 400;
@@ -100,11 +105,8 @@ body {
 }
 
 .img-phone {
-    background-image: url("../technomart/images/phone.svg");
-    width: 16px;
-    height: 16px;
-    background-repeat: no-repeat;
-    background-position: center;
+display: flex;
+
 }
 
 .phone-number {
@@ -113,6 +115,7 @@ body {
     line-height: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    padding-left: 8px;
 }
 
 .logo {
@@ -125,16 +128,11 @@ body {
 }
 
 .search {
-    background-image: url("../technomart/images/search.svg");
-    width: 20px;
-    height: 20px;
-    opacity: 0.3;
-    background-repeat: no-repeat;
-    background-position: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
+    padding-left: 12px;
 }
 
 .personal {
@@ -152,6 +150,9 @@ body {
 }
 
 .first-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #293449;
 }
 
@@ -169,7 +170,20 @@ body {
 }
 
 .header-menu {
+    display: flex;
+    justify-content: space-between;
     background-color: #3D546F;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-column-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .favorite {
@@ -190,6 +204,17 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 10px 12px;
+}
+
+.navigation {
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
+.navigation-card {
+    padding: 20px 33px 33px 25px ;
 }
 
 .navigation-card-yellow {
@@ -240,6 +265,7 @@ body {
     background-color: #8ED78F;
     width: 370px;
     height: 180px;
+    transform: translate(400px, 210px);
 }
 
 .navigation-card-orange {
@@ -261,6 +287,7 @@ body {
     line-height: 42px;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding: 51px 53px;
 }
 
 .navigation-banner-description {
@@ -269,6 +296,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 24px;
 text-transform: none;
+    padding-bottom: 146px;
 }
 
 .navigation-button-banner {
@@ -292,6 +320,26 @@ text-transform: none;
     line-height: 42px;
     text-transform: uppercase;
     color: #293449;
+}
+
+.catalog {
+    display: flex;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.right-catalog-columns {
+
+}
+
+.catalog-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    gap: 30px;
 }
 
 .filter-group {
@@ -329,10 +377,17 @@ text-transform: none;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 270px;
     height: 380px;
     border: 1px solid #EAEAEA;
     border-radius: 2px;
+}
+
+.card-image-padding {
+    /*margin-top: 10px;*/
 }
 
 .card-title {
@@ -341,7 +396,20 @@ text-transform: none;
     line-height: 26px;
     color: #293449;
     text-align: center;
+    padding-bottom: 11px;
 }
+
+.card-image-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 135px; */
+    flex-direction: column;
+    background: url("../technomart/images/bosch6000.png") center no-repeat;
+    opacity: 30%;
+}
+
+
 
 .card-old-price {
     font-style: normal;
@@ -352,6 +420,7 @@ text-transform: none;
     text-decoration-line: line-through;
     text-transform: uppercase;
     color: #A9A9A9;
+    padding-bottom: 11px;
 }
 
 .card-button {
@@ -368,6 +437,10 @@ text-transform: none;
     padding: 11px 46px 11px 29px;
 }
 
+.old-price-none {
+    padding-top: 30px;
+}
+
 .card-buy-button {
     font-weight: 700;
     font-size: 14px;
@@ -379,7 +452,8 @@ text-transform: none;
     color: #FFFFFF;
     background: #63A63E;
     border-radius: 2px;
-    padding: 11px 17px;
+    padding: 11px 29px;
+    margin: 66px 47px 11px 49px;
 }
 
 .card-favorite-button {
@@ -393,6 +467,8 @@ text-transform: none;
     border: 2px solid #63A63E;
     border-radius: 2px;
     padding: 11px 17px;
+    margin-bottom: 64px;
+
 }
 
 .button-basket {
@@ -421,11 +497,18 @@ text-transform: none;
     color: #293449;
 }
 
+.advantages-cards-row {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
 .advantages-cards {
     width: 370px;
     height: 382px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     border-radius: 2px;
+    padding: 31px 44px 67px 26px;
 }
 
 .advantage-title {
