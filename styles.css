@@ -475,6 +475,13 @@ text-transform: none;
     padding-right: 4px;
 }
 
+.service {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .background-service {
     background-color: #F4F8F9;
 }
@@ -495,12 +502,14 @@ text-transform: none;
     line-height: 24px;
     text-align: center;
     color: #293449;
+    padding-bottom: 65px;
 }
 
 .advantages-cards-row {
     display: grid;
     grid-template-columns: repeat(3, 370px);
     gap: 30px;
+    padding-bottom: 52px;
 }
 
 .advantages-cards {
@@ -527,6 +536,16 @@ text-transform: none;
     color: #000000;
 }
 
+.business-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+}
+
+.about-company-title, .contacts-title {
+    padding-bottom: 23px;
+}
+
 .about-company-title {
 font-family: "Fira Sans", sans-serif;
 font-style: normal;
@@ -548,11 +567,39 @@ color: #293449;
 }
 
 .contacts-description {
+    font-family: "PT Sans", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
-    text-align: center;
     color: #293449;
+    padding-bottom: 28px;
+}
+
+.about-company-description {
+    font-family: "PT Sans", sans-serif;
+    padding-bottom: 52px;
+    min-width: 500px;
+}
+
+.footer-social-list {
+    display: flex;
+    padding: 0;
+}
+
+
+
+
+.feedback-right {
+width: 381px;
+padding-top: 29px;
+}
+
+.contacts-map {
+    padding-bottom: 52px;
+}
+
+.about-company {
+    width: 500px;
 }
 
 .about-company-button {
@@ -610,6 +657,7 @@ color: #293449;
 
 .footer-background {
     background-color: #32425C;
+    display: flex;
 }
 
 .footer-social-item {
@@ -626,6 +674,8 @@ color: #293449;
 }
 
 .copyright {
+    display: flex;
+    justify-content: space-between;
     background-color: #293449;
     font-weight: 400;
     font-size: 14px;
