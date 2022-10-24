@@ -89,6 +89,7 @@ body {
 
 .header {
     width: 100%;
+    background: #F3F7F9;
 }
 
 .online-shop {
@@ -190,6 +191,24 @@ body {
     font-size: 14px;
     line-height: 18px;
     color: #ffffff;
+}
+
+.login-personal, .password-personal {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 8px 14px;
+    color: #C5C5C5;
+}
+
+.remember, .cart-item-small-title {
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 13px;
+}
+
+.checkbox-remember {
+    display: flex;
 }
 
 .login__wrapper {
@@ -766,4 +785,251 @@ body {
 .link {
     color: #FFD180;
     text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #32425C;
+    color: #C5C5C5;
+    /*padding: 21px 26px;*/
+}
+
+.menu-item:active {
+    background-color: #32425C;
+    color: #ffffff;
+    font-weight: 700;
+    /*padding: 21px 26px;*/
+}
+
+.slider-pagination {
+    position: absolute;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: flex-start;
+    border: none;
+    padding-left: 368px;
+
+    top: 766px;
+
+}
+
+.slider-pagination-button {
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    border: none;
+    margin-right: 8px;
+    background-color: #ffffff;
+
+}
+
+.slider-pagination-button-current {
+    background-color: #FFD180;
+}
+
+.slider-pagination-item {
+
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 650px;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 733px;
+    margin-left: 15px;
+}
+
+.arrow-left {
+    background-image: url(../technomart/images/arrow-left.svg);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #293449;
+}
+
+.arrow-right {
+    top: 50%;
+    right: 0;
+    background-image: url(../technomart/images/arrow-right.svg);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #293449;
+}
+
+.popover-personal {
+    position: absolute;
+    top: 65px;
+    right: 118px;
+    left: 857px;
+    z-index: 11;
+    box-sizing: border-box;
+    width: 360px;
+    color: #000000;
+    background-color: #ffffff;
+    min-height: 330px;
+    margin: 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+}
+
+.popover-content {
+    padding: 22px 29px 35px 22px;
+}
+
+.popover-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 43px;
+}
+
+.cart-items-personal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.email-personal {
+    font-family: "PT Sans", sans-serif;
+    width: 332px;
+    min-height: 48px;
+    padding: 14px 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.button-modal {
+    display: flex;
+    align-items: center;
+    width: 145px;
+    height: 40px;
+    background-color: #63A63E;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 11px 26px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.button-modal-registration {
+    border: 2px solid #63A63E;
+    color: #32425C;
+    text-transform: uppercase;
+    padding: 6px 11px;
+    margin-left: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.inter {
+    margin-right: 8px;
+}
+
+.button-row {
+    display: flex;
+    padding-top: 38px;
+}
+
+.navigation-button-banner:hover, .about-company-button:hover, .card-button:hover {
+    background-color: #CA2C37;
+}
+
+
+.navigation-button-banner:active, .about-company-button:active, .card-button:active {
+    background-color: #BA2732;
+}
+
+
+.email-button:hover, .card-buy-button:hover {
+    background-color: #5FBB2D;
+}
+
+.email-button:active, .card-buy-button:active {
+    background-color: #518534;
+}
+
+
+.card-favorite-button:hover {
+    border-color: #32425C;
+}
+
+
+.card-favorite-button:active {
+    border-color: #C5C5C5;
+    color: #C5C5C5;
+}
+
+.select-control:hover {
+    border-color: #63A63E;
+    color: #63A63E;
+}
+
+
+.select-control:active {
+    border-color: #FFBF47;
+    color: #63A63E;
+
+}
+
+
+.pagination-item {
+    background-color: #3D546F;
+    width: 50px;
+    height: 45px;
+    color: #ffffff;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.pagination-button {
+    background-color: #EE3643;
+    width: 195px;
+    height: 45px;
+    padding: 13px 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 700;
+    margin-left: 17px;
+}
+
+.pagination-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0 67px 0;
+}
+
+.pagination-current {
+    background-color: #ffffff;
+    color: #3D546F;
+    font-weight: 700;
+    font-size: 16px;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Technomart</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="favicon" href="../technomart/favicon.ico">
 </head>
 <body>
 <div class="main-wrapper">
@@ -39,8 +40,36 @@
                         <span class="login__text">Войти</span>
                     </span>
                 </a>
+                <div class="popover-personal popover-card">
+                    <div class="popover-content">
+                        <h1 class="popover-title">Личный кабинет</h1>
+                        <div class="cart-items-personal-list">
+                            <label class="visually-hidden" for="login">Логин.</label>
+                            <input class="login-personal" id="login" type="login" placeholder="Логин" name="login"
+                                   required="">
+                            <label class="visually-hidden" for="password">пароль.</label>
+                            <input class="password-personal" id="password" type="password" placeholder="Пароль" name="password"
+                                   required="">
+                        </div>
+                        <div class="checkbox-remember">
+                        <input checked="" class="custom-checkbox" name="remember" type="checkbox" value="remember" id="remember">
+                        <label class="remember" for="remember">Запомнить меня</label>
+                        <div class="cart-item-small-title">Забыл пароль</div>
+                        </div>
+                        <div class="row-button-item">
+                            <div class="button-row">
+                                <a class="button-modal" href="#">
+                                    <img src="../technomart/images/Union.png" class="inter" width="17" height="16" alt="Вход.">
+                                    Войти</a>
+                                <a class="button-modal-registration" href="#">регистрация</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            </div>
+    </div>
         <nav class="second-menu">
             <div class="container second-menu__container">
                 <ul class="second-menu__items">
@@ -112,7 +141,31 @@
                         <a href="#" class="navigation-button-banner">Открыть каталог</a>
 
                     </div>
+                    <div class="arrows">
+                        <button class="arrow-left">
+                        </button>
+                        <button class="arrow-right"></button>
+                    </div>
+
+
                 </div>
+                <ol class="slider-pagination">
+                    <li class="slider-pagination-item">
+                        <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                            <span class="visually-hidden">1 фото.</span>
+                        </button>
+                    </li>
+                    <li class="slider-pagination-item">
+                        <button class="slider-pagination-button" type="button">
+                            <span class="visually-hidden">2 фото.</span>
+                        </button>
+                    </li>
+                    <li class="slider-pagination-item">
+                        <button class="slider-pagination-button" type="button">
+                            <span class="visually-hidden">3 фото.</span>
+                        </button>
+                    </li>
+                </ol>
                 <div class="navigation-card navigation-card-green">
                     <div class="navigation-card-title">Скидки 50%</div>
                     <div class="navigation-icon-paints"></div>
@@ -242,8 +295,8 @@
                     </div>
                     <div class="pagination-row">
                         <div class="pagination">
-                            <a class="pagination-item pagination-current">1</a>
-                            <a href="#" class="pagination-item">2</a>
+                            <a class="pagination-item">1</a>
+                            <a href="#" class="pagination-item pagination-current">2</a>
                             <a href="#" class="pagination-item">3</a>
                             <a href="#" class="pagination-item">4</a>
                             <a href="#" class="pagination-button">показать еще</a>
